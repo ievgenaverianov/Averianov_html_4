@@ -7,7 +7,7 @@ body {
   display: block;
   width: 1000px;
   margin: 0px auto;
-  margin-top: -3px;
+  margin-top: -4px;
   overflow: hidden;
 }
 
@@ -65,13 +65,12 @@ body {
 .panel {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   width: 1000px;
   height: 36px;
   background-color: #333;
   margin-top: -2px;
   box-shadow: 0px 2px 2px 0px #000000;
-  z-index: 2;
+  border-bottom: 1px solid #000;
 }
 
 .menu > li {
@@ -112,6 +111,7 @@ body {
 
 .menu > li:hover > ul.submenu {
     display: block;
+    z-index: 2;
 }
 
 .nosub {
